@@ -55,19 +55,19 @@ const Introduce = () => {
     },
     {
       name: "Ultimate Help Portal",
-      link: "https://github.com/barikhemanta/HELPYMIND",
+      link: "https://barikhemanta.github.io/HELPYMIND",
     },
     {
       name: "E-Learning",
-      link: "https://github.com/barikhemanta/cipherdemy",
+      link: "https://barikhemanta.github.io/cipherdemy",
     },
     {
       name: "Snake Game",
-      link: "https://github.com/barikhemanta/snakegame",
+      link: "https://barikhemanta.github.io/snakegame",
     },
     {
       name: "Quote Generator",
-      link: "https://github.com/barikhemanta/QuoteGenerator",
+      link: "https://barikhemanta.github.io/QuoteGenerator",
     },
     {
       name: "To-Do-List Basic",
