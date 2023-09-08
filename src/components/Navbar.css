@@ -1,0 +1,65 @@
+:root {
+  --primary-color: #07374a;
+  --secondary-color: #f0f0e6;
+  --background-color: #25b79f;
+}
+
+/* Style the vertical navbar container */
+.vertical-navbar {
+  display: flex;
+  position: fixed;
+  top: 50%;
+  right: 68px;
+  transform: translateY(-50%);
+  background-color: #07374a;
+  padding: 10px;
+
+  border-radius: 30px;
+  text-align: center;
+  gap: 20px;
+  padding: 24px 0;
+  z-index: 5;
+  height: 320px;
+  width: 55px;
+}
+
+/* Style the list */
+.vertical-navbar ul {
+  list-style: none;
+  margin: 0 20px;
+}
+
+/* Style the list items (links) */
+.vertical-navbar li {
+  margin: 1rem 0;
+  color: var(--background-color);
+}
+
+/* Style the links inside the list items */
+.vertical-navbar li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Change the background color of the link when hovered */
+.vertical-navbar li a:hover {
+  background-color: #555;
+}
+.icon:hover {
+  color: var(--secondary-color);
+}
+
+@media Screen and (max-width: 600px) {
+  .vertical-navbar {
+    position: fixed;
+    width: 40px;
+    margin-right: 15px;
+    right: 10px;
+    top: 50%;
+    gap: 20px;
+    z-index: 5;
+  }
+  .vertical-navbar ul {
+    margin: 0 10px;
+  }
+}
